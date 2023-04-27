@@ -1,0 +1,14 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+button {
+  position: relative;
+  bottom: 0;
+  transition: bottom 0.2s ease-in-out;
+}
+
+button:hover {
+  bottom: 5px;
+}
