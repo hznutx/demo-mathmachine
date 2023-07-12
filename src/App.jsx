@@ -9,7 +9,7 @@ const buttonStyle = {
   backgroundColor: "#97BFB4",
   color: "#FFF",
   border: "none",
-  margin: "8px",
+  margin: "10px",
   fontSize: "28px",
   fontwidth: "700",
 };
@@ -111,7 +111,7 @@ const App = () => {
           onChange={handleInput}
           style={{
             textAlign: "right",
-            width: "445px",
+            width: "450px",
             height: "60px",
             fontSize: "36px",
             borderRadius: "10px",
@@ -141,7 +141,7 @@ const App = () => {
             backgroundColor: "#DD4A48",
             color: "#FFF",
             border: "none",
-            margin: "8px",
+            margin: "10px",
             fontSize: "28px",
             fontwidth: "700",
           }}
@@ -190,7 +190,7 @@ const App = () => {
             backgroundColor: "#97BFB4",
             color: "#FFF",
             border: "none",
-            margin: "5px",
+            margin: "10px",
             fontSize: "28px",
             fontwidth: "700",
           }}
