@@ -1,6 +1,19 @@
 import React, { useState } from "react";
 import "./style.css";
 
+
+const buttonStyle = {
+  width: "80px",
+  height: "80px",
+  borderRadius: "10px",
+  backgroundColor: "#97BFB4",
+  color: "#FFF",
+  border: "none",
+  margin: "5px",
+  fontSize: "28px",
+  fontwidth: "700",
+};
+
 const App = () => {
   const [input, setInput] = useState(0);
   const [operation, setOperation] = useState(null);
@@ -87,7 +100,7 @@ const App = () => {
           width: "450px",
           height: "500px",
           backgroundColor: "#E4E4E2",
-          padding: 50,rowgap:4,
+          padding: 50,
           borderRadius: "30px",
           textAlign: "center",
         }}
@@ -99,7 +112,7 @@ const App = () => {
           style={{
             textAlign: "right",
             width: "445px",
-            height: "50px",
+            height: "60px",
             fontSize: "36px",
             borderRadius: "10px",
             border: "none",
@@ -198,14 +211,3 @@ const App = () => {
 
 export default App;
 
-const buttonStyle = {
-  width: "80px",
-  height: "80px",
-  borderRadius: "10px",
-  backgroundColor: "#97BFB4",
-  color: "#FFF",
-  border: "none",
-  margin: "5px",
-  fontSize: "28px",
-  fontwidth: "700",
-};
