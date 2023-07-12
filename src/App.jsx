@@ -9,7 +9,7 @@ const buttonStyle = {
   backgroundColor: "#97BFB4",
   color: "#FFF",
   border: "none",
-  margin: "15px",
+  margin: "8px",
   fontSize: "28px",
   fontwidth: "700",
 };
@@ -116,7 +116,7 @@ const App = () => {
             fontSize: "36px",
             borderRadius: "10px",
             border: "none",
-            marginBottom: "10px",
+            marginBottom: "20px",
             color: "#4F091D",
           }}
         />
@@ -141,7 +141,7 @@ const App = () => {
             backgroundColor: "#DD4A48",
             color: "#FFF",
             border: "none",
-            margin: "5px",
+            margin: "8px",
             fontSize: "28px",
             fontwidth: "700",
           }}
