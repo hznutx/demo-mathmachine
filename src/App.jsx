@@ -9,7 +9,7 @@ const buttonStyle = {
   backgroundColor: "#97BFB4",
   color: "#FFF",
   border: "none",
-  margin: "5px",
+  margin: "15px",
   fontSize: "28px",
   fontwidth: "700",
 };
