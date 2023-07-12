@@ -97,10 +97,10 @@ const App = () => {
     >
       <div
         style={{
-          width: "450px",
+          width: "auto",
           height: "500px",
           backgroundColor: "#E4E4E2",
-          padding: 50,
+          padding: 45,
           borderRadius: "30px",
           textAlign: "center",
         }}
