@@ -84,10 +84,10 @@ const App = () => {
     >
       <div
         style={{
-          width: "400px",
-          height: "450px",
+          width: "450px",
+          height: "500px",
           backgroundColor: "#E4E4E2",
-          padding: 50,
+          padding: 50,rowgap:4,
           borderRadius: "30px",
           textAlign: "center",
         }}
@@ -98,7 +98,7 @@ const App = () => {
           onChange={handleInput}
           style={{
             textAlign: "right",
-            width: "345px",
+            width: "445px",
             height: "50px",
             fontSize: "36px",
             borderRadius: "10px",
